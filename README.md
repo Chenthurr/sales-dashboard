@@ -2,9 +2,9 @@
 
 An interactive, web-based sales analytics dashboard built with **Python**, **Streamlit**, and **Plotly**. Explore sales trends, regional performance, product profitability, and discount impact through dynamic filters and real-time visualizations.
 
-🔗 **Live Demo:** [Your Streamlit Cloud URL Here](http://localhost:8501/)
+🔗 **Live Demo:** (http://localhost:8501/)
 
-![Dashboard Screenshot](assets/dashboard-preview.png)
+!(assets/dashboard-preview.png)
 
 ---
 
@@ -135,19 +135,6 @@ To deploy your own fork:
 
 ---
 
-## 📝 Resume Bullet Points
-
-Pick 2–3 depending on the role:
-
-> *"Built and deployed an interactive sales analytics dashboard using Python, Streamlit, and Plotly, enabling dynamic filtering by date, region, and product category for 10K+ transaction records."*
-
-> *"Designed automated KPI cards and trend visualizations that identified underperforming regions and discount-driven profit erosion, reducing time-to-insight from hours to seconds."*
-
-> *"Integrated profit margin analysis, discount impact scatter plots, and customer segmentation to surface actionable pricing and inventory insights for stakeholders."*
-
-> *"Managed end-to-end project lifecycle: data cleaning (Pandas), visualization design (Plotly), deployment (Streamlit Cloud), and version control (Git/GitHub)."*
-
----
 
 ## 🧪 Future Enhancements
 
@@ -168,11 +155,11 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 🙋 About the Author
 
-**Your Name** — Aspiring Data Analyst passionate about turning raw data into actionable business insights.
+**Chenthurr C K** — Aspiring Data Analyst passionate about turning raw data into actionable business insights.
 
-- LinkedIn: [Your LinkedIn URL]
-- Email: your.email@example.com
-- Portfolio: [Your Portfolio URL]
+- LinkedIn: (https://www.linkedin.com/in/chenthurr-c-k-901ab0289/)
+- Email: pchenthurr@gmail.com
+- Portfolio: chenthurrck-portfolio.netilify.app
 
 ---
 
