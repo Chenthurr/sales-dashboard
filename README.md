@@ -2,9 +2,7 @@
 
 An interactive, web-based sales analytics dashboard built with **Python**, **Streamlit**, and **Plotly**. Explore sales trends, regional performance, product profitability, and discount impact through dynamic filters and real-time visualizations.
 
-🔗 **Live Demo:** (http://localhost:8501/)
-
-!(assets/dashboard-preview.png)
+![Dashboard Preview](asset/dashboard/preview.png)
 
 ---
 
@@ -16,8 +14,6 @@ Sales teams often spend hours manually compiling reports in Excel to answer ques
 - *"What are our top-selling product categories?"*
 
 This dashboard eliminates manual reporting by providing an **interactive, self-service analytics tool** that updates in real-time as filters are applied.
-
----
 
 ## ✨ Features
 
@@ -35,8 +31,6 @@ This dashboard eliminates manual reporting by providing an **interactive, self-s
 | **Top/Bottom Performers** | Best and worst sub-categories by profit |
 | **Raw Data Explorer** | Sortable, downloadable data table |
 
----
-
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -48,11 +42,9 @@ This dashboard eliminates manual reporting by providing an **interactive, self-s
 | **Deployment** | Streamlit Cloud |
 | **Version Control** | Git + GitHub |
 
----
-
 ## 📁 Project Structure
 
-```
+```text
 sales-dashboard/
 ├── app.py                    # Main Streamlit application
 ├── data/
@@ -61,14 +53,14 @@ sales-dashboard/
 │   ├── __init__.py
 │   ├── data_loader.py        # Data cleaning & filtering logic
 │   └── charts.py             # Reusable Plotly chart functions
-├── assets/
-│   └── dashboard-preview.png # Screenshot for README
+├── asset/
+│   └── dashboard/
+│       └── preview.png       # Screenshot for README
 ├── requirements.txt          # Python dependencies
-├── .gitignore               # Git ignore rules
-└── README.md                # Project documentation
+├── .gitignore                # Git ignore rules
+├── LICENSE                   # MIT License
+└── README.md                 # Project documentation
 ```
-
----
 
 ## 🚀 Getting Started
 
@@ -80,18 +72,17 @@ sales-dashboard/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/sales-dashboard.git
+   git clone https://github.com/Chenthurr/sales-dashboard.git
    cd sales-dashboard
    ```
 
 2. **Create a virtual environment**
    ```bash
    python -m venv venv
+   ```
 
-   # On macOS/Linux:
-   source venv/bin/activate
-
-   # On Windows:
+   On Windows:
+   ```bash
    venv\Scripts\activate
    ```
 
@@ -104,37 +95,27 @@ sales-dashboard/
    ```bash
    streamlit run app.py
    ```
-   The app will open at `http://localhost:8501`
 
----
+   The app will open at `http://localhost:8501`.
 
 ## 🌐 Deployment
 
-This app is deployed on **Streamlit Cloud** (free tier).
+This app can be deployed on **Streamlit Cloud**.
 
-To deploy your own fork:
-1. Push your code to a **public** GitHub repository
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub account and select this repo
-4. Set the main file path to `app.py`
-5. Click **Deploy** — your app goes live in ~2 minutes
-
-**Pro tip:** Add the live URL to your resume and LinkedIn. Recruiters *will* click it.
-
----
+1. Push the project to a public GitHub repository.
+2. Connect the repository to Streamlit Cloud.
+3. Set the main file path to `app.py`.
+4. Deploy the application.
 
 ## 📊 Key Insights from the Data
 
-> *Findings you can discover and mention in interviews:*
-
-- **Technology** is the highest revenue category, but profit margins vary significantly by sub-category
-- The **West** region consistently outperforms others in both sales volume and profitability
-- Orders with **discounts > 40%** frequently result in negative profit — a clear pricing optimization opportunity
-- **Consumer** segment drives the most volume, while **Corporate** has higher average order values
-- Certain sub-categories (like Tables and Bookcases in Furniture) show negative profit margins despite high sales
-
----
-
+The dashboard can be used to explore:
+- Revenue and profit trends over time
+- Regional sales performance
+- Category and sub-category performance
+- The relationship between discounts and profit margins
+- Customer segment performance
+- Top and bottom sub-categories by profit
 
 ## 🧪 Future Enhancements
 
@@ -145,19 +126,15 @@ To deploy your own fork:
 - [ ] Add **A/B testing framework** for discount strategy simulation
 - [ ] Dockerize the application for consistent deployment
 
----
-
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 ## 🙋 About the Author
 
 **Chenthurr C K** — Aspiring Data Analyst passionate about turning raw data into actionable business insights.
 
-- LinkedIn: (https://www.linkedin.com/in/chenthurr-c-k-901ab0289/)
+- LinkedIn: https://www.linkedin.com/in/chenthurr-c-k-901ab0289/
 - Email: pchenthurr@gmail.com
 - Portfolio: chenthurrck-portfolio.netilify.app
 
