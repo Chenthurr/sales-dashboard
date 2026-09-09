@@ -38,5 +38,5 @@ venv.bak/
 .DS_Store
 Thumbs.db
 
-# Data files (optional - remove if you want to include dataset in repo)
-# data/*.csv
+# Local data files
+# Keep the dashboard dataset tracked in data/SampleSuperstore.csv
